@@ -17,13 +17,13 @@ from selenium.webdriver.common.by import By
 
 from selenium.webdriver.common.keys import Keys
 
-Username = 'AVT'
+Username = ''
 
-Password = 'Support@269'
+Password = ''
 
-dns1 = '1.1.1.1'
+dns1 = ''
 
-domainName = 'av.bowie.local'
+domainName = ''
 
 
 
@@ -257,9 +257,9 @@ if __name__ == '__main__':
     #initialsetup(initial_ips)
     #webbrowseropen(initial_ips)
     #setHostAndIP(initial_ips, newIps)
-    #webbrowseropen(newIps)
+    webbrowseropen(newIps)
     #getmac(newIps)
-    pushUpdates(newIps)
+    #pushUpdates(newIps)
     #print(filter_data())
 
 

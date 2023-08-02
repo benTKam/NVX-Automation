@@ -19,7 +19,7 @@ from selenium.webdriver.common.keys import Keys
 
 Username = 'AVT'
 
-Password = 'Support@269'
+Password = ''
 
 dns1 = '1.1.1.1'
 
